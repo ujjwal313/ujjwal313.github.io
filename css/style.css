@@ -656,3 +656,9 @@ textarea {
   pointer-events: none !important;
   box-shadow: 0 0 16px rgba(255, 255, 255, 0);
 }
+
+@media only screen and (max-width: 37.5em) {
+  .cursor{
+    display: none;
+  }
+}
