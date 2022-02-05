@@ -187,8 +187,15 @@ textarea {
   color: #333;
 }
 
-.btn--code{
+.btn--code,
+.btn--resume{
   margin-left: 10px;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .btn--resume{
+    margin-top: 10px;
+  }
 }
 
 .sec-pad {
