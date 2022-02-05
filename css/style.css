@@ -180,6 +180,7 @@ textarea {
   background: transparent;
   border: 1px solid #fff;
   color: #fff;
+  width: fit-content;
 }
 
 .btn--theme:hover {
@@ -190,24 +191,15 @@ textarea {
 .btn--code{
   margin-left: 10px;
 }
-
-.btn--resume{
-  margin-right: 10px;
-}
-
 @media only screen and (max-width: 37.5em) {
-  .btn--resume{
-    margin-top: 10px;
-  }
+    .btn--resume {
+      width: 170px;
+      margin-bottom: 10px;
+    }
 }
 
 .sec-pad {
   padding: 5rem 0;
-}
-@media only screen and (max-width: 56.25em) {
-  .sec-pad {
-    padding: 8rem 0;
-  }
 }
 
 .text-primary {
@@ -306,6 +298,15 @@ textarea {
 .home-hero__cta {
   margin-top: 5rem;
   text-align: center;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .home-hero__cta {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .about__content {
