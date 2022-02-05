@@ -195,14 +195,14 @@ textarea {
   margin-right: 10px;
 }
 
-@media only screen and (max-width: 56.25em) {
+@media only screen and (max-width: 37.5em) {
   .btn--resume{
     margin-top: 10px;
   }
 }
 
 .sec-pad {
-  padding: 12rem 0;
+  padding: 5rem 0;
 }
 @media only screen and (max-width: 56.25em) {
   .sec-pad {
@@ -255,7 +255,7 @@ textarea {
 }
 .home-hero__mouse-scroll-cont {
   position: absolute;
-  bottom: 3%;
+  bottom: 9%;
   left: 50%;
   transform: translateX(-50%);
 }
