@@ -187,6 +187,10 @@ textarea {
   color: #333;
 }
 
+.btn--code{
+  margin-left: 10px;
+}
+
 .sec-pad {
   padding: 12rem 0;
 }
