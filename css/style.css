@@ -191,6 +191,10 @@ textarea {
 .btn--code{
   margin-left: 10px;
 }
+
+.btn--resume{
+  margin-right: 10px;
+}
 @media only screen and (max-width: 37.5em) {
     .btn--resume {
       width: 170px;
